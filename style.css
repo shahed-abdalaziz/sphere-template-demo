@@ -257,3 +257,19 @@ body {
   display: inline-block;
 }
 /* End About Section */
+/* Footer  Section*/
+.site-footer {
+  padding: 40px 20px;
+  text-align: center;
+  clear: both;
+}
+
+.footer-copyright,
+.footer-credit {
+  display: inline-block;
+  color: var(--mainWhite);
+  opacity: 0.4;
+  margin: 0 15px;
+  font-size: 0.9rem;
+}
+/* End Footer Section */
