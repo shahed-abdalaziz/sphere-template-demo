@@ -187,3 +187,73 @@ body {
   color: var(--mainWhite);
 }
 /* End Portfolio Section */
+/* About Section */
+.about-section {
+  background-color: #27282a;
+  width: 100%;
+  padding: 60px 5%;
+  margin-top: 80px;
+}
+
+.about-section::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.about-media {
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+
+.about-avatar {
+  width: 250px;
+  height: 250px;
+  border-radius: 70px;
+  display: inline-block;
+  object-fit: cover;
+}
+
+.about-content {
+  float: right;
+  width: 50%;
+  text-align: left;
+}
+
+.about-statement {
+  width: 100%;
+  max-width: 27rem;
+  margin: 0;
+  color: var(--mainWhite);
+  line-height: 2;
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 2px;
+  font-family: sans-serif;
+  text-align: left;
+}
+
+.about-links-list {
+  list-style-type: none;
+  margin-top: 30px;
+  text-align: left;
+}
+
+.about-links-list li {
+  display: inline-block;
+  margin: 10px 15px 10px 0;
+}
+
+.about-links-list a {
+  text-decoration: none;
+}
+.about-link-upgrade,
+.about-link-download,
+.about-link-email,
+.about-link-linkedin {
+  color: var(--mainWhite);
+  font-size: 1.5rem;
+  display: inline-block;
+}
+/* End About Section */
