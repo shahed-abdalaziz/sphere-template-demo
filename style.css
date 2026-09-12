@@ -53,3 +53,67 @@ body {
   color: var(--mainBlack);
 }
 /* End Section Navbar */
+/* Hero Section */
+.hero-section {
+  width: 100%;
+}
+
+.hero-container {
+  margin-top: 3.5rem;
+  padding: 0 50px;
+  text-align: left;
+}
+
+.hero-avatar {
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.hero-brand-name {
+  display: inline-block;
+  vertical-align: middle;
+  font-weight: bold;
+  font-size: 1.4rem;
+  color: var(--mainWhite);
+  font-family: sans-serif;
+  margin-left: 10px;
+}
+
+.hero-info-link:hover {
+  color: var(--mainWhite);
+  opacity: 1;
+}
+
+.hero-download-btn {
+  float: right;
+  border: 3px solid var(--mainBage);
+  background-color: beige;
+  border-radius: 10px;
+  padding: 7px;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+.hero-credit-text {
+  clear: both;
+  text-align: center;
+  color: var(--mainWhite);
+  opacity: 0.7;
+  padding-top: 40px;
+}
+
+.hero-main-title {
+  font-weight: bolder;
+  color: var(--mainWhite);
+  font-size: 4rem;
+  text-align: center;
+  line-height: 1.2;
+  font-family: sans-serif;
+  margin: 30px auto;
+  max-width: 80rem;
+}
+/* End Hero Section */
